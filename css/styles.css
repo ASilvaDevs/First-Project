@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body{
+    background-color: #D3D3D3 ;
+}
+
+header img {
+    width: 58%;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+header h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #0E223F;
+}
+
+header h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E223F;
+}
+
+nav {
+    background-color: #0E223F;
+    padding: 16px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style-type: none;
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    padding: 12px;
+    background-color: #f6e691;
+    color: #0E223F;
+    border-radius: 10px;
+    transition-duration: 1s;
+
+
+}
+
+.biography h2, .contributions h2, #projetos h2, .awards h2, .contact h2{
+    margin: 32px 0 8px 0;
+    color: #0E223F ;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.project img {
+    height: 70%;
+}
+
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #0E223F;;
+    padding: 50px;
+    border-radius: 10px;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.contact form input, button{
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    
+}
+
+.contact form textarea{
+    resize: none;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+.contact form button{
+    background-color:#FFD700 ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact form button:hover{
+    background-color:#f6e691 ;
+    transition: 1s;
+
+}
+
+
+footer{
+    margin-top: 16px;
+    background-color: #0E223F;
+    padding: 16px;
+    color: #FFD700;
+    }
+
+
